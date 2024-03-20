@@ -1,0 +1,14 @@
+x = int(input("digite um número: "))
+
+if x == 0:
+    print(f"zero")
+
+elif x == 1:
+    print(f"um")
+
+elif x == 2:
+    print(f"dois")
+
+else:
+    print(f"erro")
+
