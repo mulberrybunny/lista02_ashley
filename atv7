@@ -1,0 +1,7 @@
+idade = int(input("qual sua idade? "))
+peso = int(input("quanto você pesa? "))
+
+if idade > 15 and peso < 120:
+    print(f"Liberado")
+else:
+    print(f"proibido")
