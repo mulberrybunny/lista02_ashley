@@ -1,0 +1,8 @@
+temp = int(input("qual é a temperatura em graus celsius? "))
+
+if temp < 15:
+    print(f"está frio!!")
+elif temp > 25:
+    print(f"está quente!!")
+else:
+    print(f"a temperatura está agradavel")
