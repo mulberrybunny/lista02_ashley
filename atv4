@@ -1,0 +1,10 @@
+nota = int(inpu("qual sua nota?" ))
+
+if media > 70:
+    print(f"aprovado")
+
+elif media >= 40 and media < 70:
+    print(f"recuperação")
+
+else:
+    print(f"reprovado")
