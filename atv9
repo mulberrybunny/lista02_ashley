@@ -1,0 +1,11 @@
+idade = int(input("qual sua idade? "))
+tempo = int(input("a quantos anos você trabalha? "))
+
+if idade >=60 and tempo >=25:
+    print(f"pode se aposentar")
+elif idade >= 65:
+    print(f"pode se aposentar")
+elif tempo >= 30:
+    print(f"pode se aposentar")
+else:
+    print(f"não pode se aposentar")
