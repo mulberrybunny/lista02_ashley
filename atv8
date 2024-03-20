@@ -1,0 +1,8 @@
+idade = int(input("qual sua idade? "))
+
+if idade >= 18:
+    print(f"deve votar")
+elif idade >= 16 and idade <18:
+    print(f"pode votar")
+else:
+    print(f"não pode votar")
