@@ -1,1 +1,12 @@
+a = int(input("digite A: "))
+b = int(input("digite B: "))
+c = int(input("digite C: "))
 
+delta = b**2 - 4*a*c
+
+if delta > 0:
+    print(f"duas raízes distintas")
+elif delta == 0:
+    print(f"duas raizes iguais")
+else:
+    print(f"duas raízes imaginarias")
