@@ -1,0 +1,8 @@
+num = int(input("digite um numero: "))
+
+if num % 2 == 0:
+    P = num
+    print(f"{P} é par")
+else:
+    I = num
+    print(f"{I} é impar")
