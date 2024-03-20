@@ -1,0 +1,20 @@
+bi1 = int(input("sua nota no 1 bimestre "))
+bi2 = int(input("sua nota no 2 bimestre "))
+cod = int(input("insira o codigo de sua faculdade "))
+ 
+media = (bi1 + bi2)/2
+
+if cod == 1:
+    if media >= 60:
+        print(f"aprovado")
+    else:
+        print(f"reprovado")
+else:
+    if media >= 70:
+        print(f"aprovado")
+    elif media <= 40 and media < 70:
+        print(f"recuperação")
+    else:
+        print(f"reprovado")
+
+
