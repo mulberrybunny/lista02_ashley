@@ -1,0 +1,34 @@
+
+cont = True
+resultado = 0
+while cont == True:
+    numero1 = float(input("digite um numero "))
+    simbolo = input("digite seu simbolo ")
+    numero2 = float(input("digite um numero "))
+
+    if simbolo == '+':
+        resultado = numero1 + numero2
+    
+    elif simbolo == '-':
+        resultado = numero1 - numero2
+    
+    elif simbolo == '*':
+        resultado = numero1 * numero2
+
+    elif simbolo == '/':
+        resultado = numero1 / numero2
+    
+    else:
+        print(f"invalido")
+        continue
+
+    print(f"{numero1} {simbolo} {numero2} é igual a {resultado}")
+
+    mais = input("deseja cotinuar? ")
+
+    #.lower() aceita minusculas ou maisculas
+    if mais.lower() != 'sim':
+        print(f"sistema finalizado.")
+        cont = False
+    else:
+        print(f"invalido")
